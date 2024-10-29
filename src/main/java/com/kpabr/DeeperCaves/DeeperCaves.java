@@ -42,7 +42,6 @@ import cpw.mods.fml.common.registry.VillagerRegistry;
 import cpw.mods.fml.relauncher.Side;
 import net.minecraftforge.event.*;
 import net.minecraftforge.event.entity.living.LivingFallEvent;
-import scala.actors.threadpool.Arrays;
 @Mod(modid = DeeperCaves.MODID, version = DeeperCaves.VERSION, name = DeeperCaves.NAME)
 public class DeeperCaves
 {
@@ -51,7 +50,7 @@ public class DeeperCaves
  
     /*Mod ID and Version declarations*/
     public static final String MODID = "DeeperCaves";
-    public static final String VERSION = "1.0.0";
+    public static final String VERSION = Tags.VERSION;
     public static final String NAME = "DeeperCaves";
     static int versionID = 11; //Used by version checker!
     

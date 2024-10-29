@@ -26,7 +26,6 @@ import net.minecraft.world.World;
 public class BlockReturnPortal extends BlockBase
 {
     public static boolean field_149948_a;
-    private static final String __OBFID = "CL_00000236";
 
     public BlockReturnPortal(Material p_i45404_1_)
     {
